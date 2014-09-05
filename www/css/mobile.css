@@ -1,0 +1,91 @@
+body {
+  background: -webkit-linear-gradient(#BFEFFF, #00a5db); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#BFEFFF, #00a5db); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#BFEFFF, #00a5db); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#BFEFFF, #00a5db); /* Standard syntax */
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+label.error { 
+	float: left; 
+	color: red; 
+	padding-top: .5em; 
+	vertical-align: top; 
+	font-weight:bold
+}
+
+[data-role=page] {
+	 height: 100% !important; 
+     position:relative !important;
+    background: -webkit-linear-gradient(#BFEFFF, #00a5db); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#BFEFFF, #00a5db); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#BFEFFF, #00a5db); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#BFEFFF, #00a5db); /* Standard syntax */
+}
+
+// [data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;} 
+
+.header{
+    background-image:url("images/background_top_mobile.png");
+    //width:320px;
+    width:100%;
+    height:60px;
+  //  background-color: #B00C0C;
+    border: None;
+    background-repeat: repeat-x;
+}
+
+.header h1 {
+	color: black;
+	margin-top:5px;
+}
+
+.header a{
+	display:inline;
+	background: None;
+	border:None;
+	float:right;
+}
+
+.footer {
+    background-image:url("images/background_bottom_mobile.png");
+   // width:320px;
+    width:100%;
+    height:45px;
+  //  background-color: #B00C0C;
+    border: None;	
+    background-repeat: repeat-x;
+}
+
+.whale-mobile{
+//  margin-left:25px;
+ // width:370px;
+ // height:400px;
+//  padding: 133px 45px 100px 125px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:100px;
+  background-image: url('images/whale.png');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ font-size: 6px;
+}
+
+.whale-mobile button{
+	bottom:0;
+	text-align:center;
+}
+
+.whale p{
+	
+ // margin-top: 133px;
+ margin-right:45px;
+ margin-bottom:100px;
+ margin-left:140px;
+ font-size: 15px;
+}
